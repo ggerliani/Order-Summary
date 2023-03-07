@@ -1,0 +1,352 @@
+body { display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#e2e7f8;
+    background-image: url(./RESOURCES/images/pattern-background-desktop.svg);
+    width: 100vw;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: top, right;
+   
+}
+
+
+
+.card{ 
+    margin-top: 99px;
+    margin-bottom: 101px;
+    position: relative;
+    width: 450px;
+    height: 697px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+
+
+
+.girlimg{
+    background-color: #382AE1;
+    max-width: 100%;
+    border-radius:  20px 20px 0px 0px;
+}
+
+
+.h1ordersummary{
+    font-family:'Red Hat Display';
+    text-align: center;
+    margin-top: 45px;
+    font-weight: 900;
+    font-size: 28px;
+    color: #1F2E55;
+    
+}
+
+
+.pordersummary{
+    font-size: 16px;
+    color: #717FA6;
+    margin-top: 25px;
+    margin-left: 48px;
+    margin-right: 48px;
+    font-weight: 500;
+    font-family: 'Red Hat Display';
+    letter-spacing: 0.2px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+
+.annualplanbox {
+    background-color: #F7F9FF;
+    width: 354px;
+    height: 98px;
+    margin-top: 23px;
+    margin-left: 48px;
+    border-radius: 11px;
+}
+
+
+.iconmusic {
+    position: absolute;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 24px;
+}
+
+
+
+.h1annualplan{
+    position: absolute;
+    font-family: 'Red Hat Display';
+    font-size: 16px;
+    font-weight: bold;
+    color: #1F2E55;
+    margin-top: 25px;
+    margin-bottom: 52px;
+    margin-left: 92px;
+    margin-right: 144.81px;
+}
+
+
+
+.p59year{
+    font-family: 'Red Hat Display';
+    position: absolute;
+    color: #717FA6;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 92px;
+    margin-right: 170px;
+    margin-top: 52px;
+    margin-bottom: 25px;
+}
+
+
+.h2change{
+    position: absolute;
+    font-family: 'Red Hat Display';
+    color: #382AE1;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 278px;
+    margin-right: 24px;
+    margin-top: 40px;
+    margin-bottom: 39px;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+
+.h2change:hover{
+    text-decoration: none;
+    color:  #766CF1;
+
+}
+
+
+.ptpbox{
+    width: 354px;
+    height: 50px;
+    border-radius: 11px;
+    background-color:#382AE1;
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-top: 32px;
+    box-shadow: 0px 20px 20px #446aed4d;
+    cursor: pointer;
+}
+
+
+.ptpbox:hover{
+    background-color:  #766CF1;
+
+}
+
+
+.h1ptp{
+    position: absolute;
+    font-family: 'Red Hat Display';
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 900;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 102px;
+    margin-right: 102px;
+}
+
+
+.pptp{
+position: relative;
+color: #717FA6;
+font-family: 'Red Hat Display';
+font-weight: 900;
+font-size: 15px;
+margin-top: 32px;
+margin-bottom: 48px;
+margin-left: 176px;
+margin-right: 178px;
+cursor: pointer;
+}
+
+
+.pptp:hover{
+    color:  #1F2E55;
+
+}
+
+
+@media only screen and (min-width: 390px) and (max-width: 900px) {
+   
+    body { display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#e2e7f8;
+        background-image: url(./RESOURCES/images/pattern-background-mobile.svg);
+        height: 709px;
+        width: 100vw;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-position: top, right;
+    
+    }
+    
+    
+    
+    
+    .card{ 
+        margin-right: 24px;
+        margin-left: 24px;
+        margin-top: 99px;
+        margin-bottom: 101px;
+        position: relative;
+        width: 327px;
+        height: 567px;
+        border-radius: 20px;
+        background-color: #FFFFFF;
+    }
+    
+    
+    
+    .girlimg{
+        background-color: #382AE1;
+        max-width: 100%;
+        border-radius:  20px 20px 0px 0px;
+    }
+    
+    
+    .h1ordersummary{
+        font-family:'Red Hat Display';
+        text-align: center;
+        margin-top: 35px;
+        font-weight: 900;
+        font-size: 22px;
+        color: #1F2E55;
+        
+    }
+    
+    
+    .pordersummary{
+        font-size: 15px;
+        color: #717FA6;
+        margin-top: 22px;
+        margin-left: 24.9px;
+        margin-right: 24.9px;
+        font-weight: 500;
+        font-family: 'Red Hat Display';
+        letter-spacing: 0.2px;
+        line-height: 1.5;
+        text-align: center;
+    }
+    
+    
+    
+    .annualplanbox {
+        background-color: #F7F9FF;
+        width: 279px;
+        height: 81px;
+        margin-top: 24px;
+        margin-right: 24px;
+        margin-left: 24px;
+        border-radius: 11px;
+    }
+    
+    
+    .iconmusic {
+        position: absolute;
+        margin-top: 17px;
+        margin-bottom: 16px;
+        margin-left: 16px;
+    }
+    
+    
+    
+    .h1annualplan{
+        position: absolute;
+        font-family: 'Red Hat Display';
+        font-size: 14px;
+        font-weight: bold;
+        color: #1F2E55;
+        margin-top: 21px;
+        margin-bottom: 41px;
+        margin-left: 84px;
+        margin-right: 106.34px;
+    }
+    
+    
+    
+    .p59year{
+        font-family: 'Red Hat Display';
+        position: absolute;
+        color: #717FA6;
+        font-size: 14px;
+        font-weight: 500;
+        margin-left: 84px;
+        margin-right: 114px;
+        margin-top: 43px;
+        margin-bottom: 19px;
+    }
+    
+    
+    .h2change{
+        position: absolute;
+        font-family: 'Red Hat Display';
+        color: #382AE1;
+        font-size: 13px;
+        font-weight: 700;
+        margin-left: 215px;
+        margin-right: 16px;
+        margin-top: 33px;
+        margin-bottom: 31px;
+        text-decoration-line: none;
+
+     
+    }
+    
+    
+    
+
+    
+    .ptpbox{
+        width: 279px;
+        height: 50px;
+        border-radius: 11px;
+        background-color:#382AE1;
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-top: 32px;
+        box-shadow: 0px 20px 20px #446aed4d;
+    
+    }
+    
+
+    
+    
+    
+    
+    .h1ptp{
+        position: absolute;
+        font-family: 'Red Hat Display';
+        color: #FFFFFF;
+        font-size: 15px;
+        font-weight: 900;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 64px;
+        margin-right: 65px;
+    }
+    
+    
+    .pptp{
+    position: relative;
+    color: #717FA6;
+    font-family: 'Red Hat Display';
+    font-weight: 900;
+    font-size: 15px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    margin-left: 115px;
+    margin-right: 116px;
+    }
+    }
